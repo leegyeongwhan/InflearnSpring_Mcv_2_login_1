@@ -31,6 +31,6 @@ public class MemberController {
             return "members/addMemberForm";
         }
         memberRepository.save(member);
-        return "redirecet:/";
+        return "redirect:/";
     }
 }
